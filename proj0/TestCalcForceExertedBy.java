@@ -13,7 +13,7 @@ public class TestCalcForceExertedBy {
     }
 
     /**
-     *  Checks whether or not two Doubles are equal and prints the result.
+     *  Checks whether two Doubles are equal and prints the result.
      *
      *  @param  expected    Expected double
      *  @param  actual      Double received
