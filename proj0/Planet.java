@@ -1,7 +1,7 @@
 import java.util.concurrent.RecursiveTask;
 
 public class Planet {
-    public static final double G = 6.67e-11;
+    private static final double G = 6.67e-11;
 
     /** double letters, e.g. xxPos rather than xPos is to reduce the chance of typos.*/
     public double xxPos;
