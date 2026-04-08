@@ -10,13 +10,13 @@ public class LinkedListDeque<T> {
         Node next;
         Node prev;
 
-        private Node(){
+        private Node() {
             item = null;
             next = null;
             prev = null;
         }
 
-        private Node(T i, Node n, Node p){
+        private Node(T i, Node n, Node p) {
             item = i;
             next = n;
             prev = p;
@@ -29,7 +29,7 @@ public class LinkedListDeque<T> {
     /**
      * Creates an empty linked list deque.
      */
-    public LinkedListDeque(){
+    public LinkedListDeque() {
         sentinel = new Node();
         sentinel.next = sentinel;
         sentinel.prev = sentinel;
